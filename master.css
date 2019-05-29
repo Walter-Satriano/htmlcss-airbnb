@@ -37,10 +37,10 @@
 .oscuramento{
   width: 100vw;
   height: 33vh;
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
-.testo{
+.city-name{
   position: absolute;
   text-transform: uppercase;
   font-family: verdana;
