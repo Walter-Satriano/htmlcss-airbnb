@@ -1,14 +1,17 @@
 *{
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
+
+/* mantendendo attivo inline-block si crea spazio tra le img,
+invece togliendolo scompare - questo fa in modo che tutte le immagini
+occupino la totalità dello schermo e che non siano necessari scroll */
 
 .blocco-roma{
   position: relative;
-  display: inline-block;
+  /* display: inline-block; */
   width: 100vw;
-  height:33vh;
+  height: 33.3vh;
   background-image: url("immagini/roma.jpg");
   background-size: cover;
   background-position: center;
@@ -16,9 +19,9 @@
 
 .blocco-copenaghen{
   position: relative;
-  display: inline-block;
+  /* display: inline-block; */
   width: 100vw;
-  height:33vh;
+  height: 33.3vh;
   background-image: url("immagini/copenaghen.jpg");
   background-size: cover;
   background-position: center;
@@ -26,9 +29,9 @@
 
 .blocco-tokio{
   position: relative;
-  display: inline-block;
+  /* display: inline-block; */
   width: 100vw;
-  height:33vh;
+  height: 33.3vh;
   background-image: url("immagini/tokio.jpg");
   background-size: cover;
   background-position: bottom;
@@ -36,7 +39,7 @@
 
 .oscuramento{
   width: 100vw;
-  height: 33vh;
+  height: 33.3vh;
   background-color: rgba(0, 0, 0, 0.5);
 }
 
