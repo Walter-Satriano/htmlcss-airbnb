@@ -1,0 +1,15 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.blocco{
+  position: absolute;
+  width: 100vw;
+  height: 33vh;
+  background-image: url("immagini/roma.jpg");
+  background-size: cover;
+  background-position: center;
+
+
+}
